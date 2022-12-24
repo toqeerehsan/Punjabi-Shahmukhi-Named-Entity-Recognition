@@ -1,0 +1,119 @@
+Results by using IO annotation Scheme:
+
+BiLSTM_noemb
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4667 phrases; correct: 3550.
+accuracy:  97.89%; precision:  76.07%; recall:  74.99%; FB1:  75.52
+              LOC: precision:  76.46%; recall:  60.98%; FB1:  67.85  650
+              ORG: precision:  77.86%; recall:  50.50%; FB1:  61.26  393
+              PER: precision:  75.80%; recall:  82.92%; FB1:  79.20  3624
+
+BiLSTM_ch-emb
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4655 phrases; correct: 3644.
+accuracy:  98.07%; precision:  78.28%; recall:  76.98%; FB1:  77.62
+              LOC: precision:  77.28%; recall:  61.35%; FB1:  68.40  647
+              ORG: precision:  61.40%; recall:  65.35%; FB1:  63.31  645
+              PER: precision:  81.71%; recall:  82.95%; FB1:  82.32  3363
+
+==========================================================================================================
+BiLSTM_chemb_w2v
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4504 phrases; correct: 3801.
+accuracy:  98.49%; precision:  84.39%; recall:  80.29%; FB1:  82.29
+              LOC: precision:  80.39%; recall:  74.97%; FB1:  77.59  760
+              ORG: precision:  75.18%; recall:  67.49%; FB1:  71.13  544
+              PER: precision:  86.91%; recall:  83.94%; FB1:  85.40  3200
+
+
+2BiLSTM_chemb_w2v ********
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4865 phrases; correct: 3964.
+accuracy:  98.46%; precision:  81.48%; recall:  83.73%; FB1:  82.59
+              LOC: precision:  79.15%; recall:  74.97%; FB1:  77.00  772
+              ORG: precision:  71.10%; recall:  72.28%; FB1:  71.69  616
+              PER: precision:  83.84%; recall:  87.99%; FB1:  85.86  3477
+
+3BiLSTM_chemb_w2v
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4667 phrases; correct: 3907.
+accuracy:  98.54%; precision:  83.72%; recall:  82.53%; FB1:  83.12
+              LOC: precision:  74.76%; recall:  77.42%; FB1:  76.07  844
+              ORG: precision:  75.59%; recall:  68.48%; FB1:  71.86  549
+              PER: precision:  87.39%; recall:  86.36%; FB1:  86.87  3274
+
+==========================================================================================================
+BiLSTM_chemb_pos
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4505 phrases; correct: 3627.
+accuracy:  98.18%; precision:  80.51%; recall:  76.62%; FB1:  78.51
+              LOC: precision:  77.44%; recall:  63.19%; FB1:  69.59  665
+              ORG: precision:  70.24%; recall:  62.71%; FB1:  66.26  541
+              PER: precision:  82.81%; recall:  82.46%; FB1:  82.64  3299
+
+BiLSTM_chemb_w2v_pos
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4626 phrases; correct: 3873.
+accuracy:  98.52%; precision:  83.72%; recall:  81.81%; FB1:  82.76
+              LOC: precision:  80.75%; recall:  73.62%; FB1:  77.02  743
+              ORG: precision:  74.55%; recall:  68.65%; FB1:  71.48  558
+              PER: precision:  85.92%; recall:  86.24%; FB1:  86.08  3325
+
+2BiLSTM_chemb_w2v_pos
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 5004 phrases; correct: 4027.
+accuracy:  98.46%; precision:  80.48%; recall:  85.07%; FB1:  82.71
+              LOC: precision:  75.24%; recall:  76.44%; FB1:  75.84  828
+              ORG: precision:  67.74%; recall:  76.24%; FB1:  71.74  682
+              PER: precision:  84.20%; recall:  88.80%; FB1:  86.44  3494
+
+============================================================================================================
+1BiLSTM_no-emb_ELMo
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4792 phrases; correct: 3893.
+accuracy:  98.42%; precision:  81.24%; recall:  82.23%; FB1:  81.73
+              LOC: precision:  74.62%; recall:  79.02%; FB1:  76.76  863
+              ORG: precision:  60.05%; recall:  75.91%; FB1:  67.06  766
+              PER: precision:  88.18%; recall:  84.18%; FB1:  86.13  3163
+
+1BiLSTM_w2v100d_ELMo
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4686 phrases; correct: 3922.
+accuracy:  98.55%; precision:  83.70%; recall:  82.85%; FB1:  83.27
+              LOC: precision:  80.89%; recall:  73.25%; FB1:  76.88  738
+              ORG: precision:  74.64%; recall:  67.99%; FB1:  71.16  552
+              PER: precision:  85.78%; recall:  87.93%; FB1:  86.84  3396
+
+2BiLSTM_w2v100d_ELMo
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4633 phrases; correct: 3852.
+accuracy:  98.48%; precision:  83.14%; recall:  81.37%; FB1:  82.25
+              LOC: precision:  75.03%; recall:  77.79%; FB1:  76.39  845
+              ORG: precision:  70.18%; recall:  70.30%; FB1:  70.24  607
+              PER: precision:  87.77%; recall:  84.27%; FB1:  85.99  3181
+
+3BiLSTM_w2v100d_ELMo
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4930 phrases; correct: 3992.
+accuracy:  98.46%; precision:  80.97%; recall:  84.33%; FB1:  82.62
+              LOC: precision:  80.86%; recall:  74.11%; FB1:  77.34  747
+              ORG: precision:  64.91%; recall:  79.37%; FB1:  71.42  741
+              PER: precision:  84.46%; recall:  87.75%; FB1:  86.07  3442
+
+1BiLSTM_w2v100d_ELMo+charemb
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4407 phrases; correct: 3771.
+accuracy:  98.52%; precision:  85.57%; recall:  79.66%; FB1:  82.51
+              LOC: precision:  82.20%; recall:  66.87%; FB1:  73.75  663
+              ORG: precision:  74.32%; recall:  67.82%; FB1:  70.92  553
+              PER: precision:  88.22%; recall:  84.97%; FB1:  86.56  3191
+
+2BiLSTM_w2v100d_ELMo+charemb
+-------------------------------
+processed 100760 tokens with 4734 phrases; found: 4449 phrases; correct: 3795.
+accuracy:  98.54%; precision:  85.30%; recall:  80.16%; FB1:  82.65
+              LOC: precision:  79.87%; recall:  75.46%; FB1:  77.60  770
+              ORG: precision:  76.34%; recall:  66.01%; FB1:  70.80  524
+              PER: precision:  88.11%; recall:  83.91%; FB1:  85.96  3155
+
+
